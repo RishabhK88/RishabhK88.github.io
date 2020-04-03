@@ -1,0 +1,76 @@
+*{
+	box-sizing: border-box;
+}
+.top-wrapper{
+	height: 960px;
+	padding: 180px 0 100px 0;
+  	background-image: url(1.jxr);
+  	background-size: cover;
+  	background-color: #333333;
+  	color: white;
+  	text-align: center;
+}
+
+h1{
+	
+	font-family: 'Abril Fatface', cursive;
+	font-size: 170px;
+}
+
+p{
+	font-size: 50px;
+	font-family: 'Press Start 2P', cursive;
+}
+
+header {
+  height: 80px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.button{
+	text-align: center;
+  	margin: 40px 0;
+  	background-color: black;
+  	padding: 24px 100px;
+  	color: white;
+  	display: inline-block;
+  	opacity: 0.8;
+  	border-radius: 4px;
+  	text-align: center;
+  	font-size: 40px;
+  	text-decoration: none;
+}
+
+.button:hover {
+  opacity: 1;
+}
+
+
+
+.type {
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden; 
+  border-right: .15em solid orange; 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .15em;
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
