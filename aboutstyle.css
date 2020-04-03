@@ -1,0 +1,24 @@
+*{
+	box-sizing: border-box;
+
+}
+body{
+	background-color: black;
+}
+.top-wrapper{
+	height: 960px;
+	padding: 180px 0 100px 0;
+  	background-image: url(3.png);
+  	background-size: cover;
+  	background-color: #333333;
+  	color: white;
+  	text-align: center;
+}
+
+.top-wrapper h1{
+	font-size: 120px;
+}
+
+.top-wrapper p{
+	font-size: 60px;
+}
